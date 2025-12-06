@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Favicon for Browser Tabs -->
-    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
-    <!-- Favicon for Google Search & Mobile -->
-    <link rel="apple-touch-icon" href="assets/images/favicon.ico">
-    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+    <link rel="icon" type="image/png" href="assets/images/favicon-96x96.png" sizes="96x96" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png" />
+    <link rel="manifest" href="assets/images/site.webmanifest" />
 
     
 
@@ -249,105 +249,329 @@
     </section>
     
     
-<!-- index.html - Replace content inside <section id="schedule"> -->
-<section id="schedule" class="section schedule">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <h3 class="section-title">Event Schedule</h3>
-                <p class="font-300">Join us for five days of AI exploration. See event schedule below.</p>
-            </div>
+    <section id="schedule" class="section schedule">
+        <!-- index.html - Paste this inside <section id="schedule"> -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h3 class="section-title">Event Schedule</h3>
+            <p class="font-300">Join us for five days of AI exploration (Sudan Time GMT+2)</p>
         </div>
+    </div>
 
-        <div class="row">
-            <div class="col-md-12">
-                <!-- Nav Tabs -->
-                <div class="schedule-tabs-wrapper">
-                    <ul class="nav nav-tabs custom-tabs" role="tablist">
-                        <!-- Day 1 -->
-                        <li role="presentation" class="active">
-                            <a href="#day1" aria-controls="day1" role="tab" data-toggle="tab">
-                                <span class="day-title">Day 1</span>
-                                <span class="day-desc">Workshops</span>
-                            </a>
-                        </li>
-                        <!-- Day 2 -->
-                        <li role="presentation">
-                            <a href="#day2" aria-controls="day2" role="tab" data-toggle="tab">
-                                <span class="day-title">Day 2</span>
-                                <span class="day-desc">Workshops</span>
-                            </a>
-                        </li>
-                        <!-- Day 3 -->
-                        <li role="presentation">
-                            <a href="#day3" aria-controls="day3" role="tab" data-toggle="tab">
-                                <span class="day-title">Day 3</span>
-                                <span class="day-desc">Workshops</span>
-                            </a>
-                        </li>
-                        <!-- Day 4 -->
-                        <li role="presentation">
-                            <a href="#day4" aria-controls="day4" role="tab" data-toggle="tab">
-                                <span class="day-title">Day 4</span>
-                                <span class="day-desc">Conference</span>
-                            </a>
-                        </li>
-                        <!-- Day 5 -->
-                        <li role="presentation">
-                            <a href="#day5" aria-controls="day5" role="tab" data-toggle="tab">
-                                <span class="day-title">Day 5</span>
-                                <span class="day-desc">Conference</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+    <div class="row">
+        <div class="col-md-12">
+            <!-- Nav Tabs -->
+            <div class="schedule-tabs-wrapper">
+                <ul class="nav nav-tabs custom-tabs" role="tablist">
+                    <!-- Day 1: Wednesday -->
+                    <li role="presentation" class="active">
+                        <a href="#day1" aria-controls="day1" role="tab" data-toggle="tab">
+                            <span class="day-title">Wed 10/12</span>
+                            <span class="day-desc">Workshops</span>
+                        </a>
+                    </li>
+                    <!-- Day 2: Thursday -->
+                    <li role="presentation">
+                        <a href="#day2" aria-controls="day2" role="tab" data-toggle="tab">
+                            <span class="day-title">Thu 11/12</span>
+                            <span class="day-desc">Workshops</span>
+                        </a>
+                    </li>
+                    <!-- Day 3: Friday -->
+                    <li role="presentation">
+                        <a href="#day3" aria-controls="day3" role="tab" data-toggle="tab">
+                            <span class="day-title">Fri 12/12</span>
+                            <span class="day-desc">Workshops</span>
+                        </a>
+                    </li>
+                    <!-- Day 4: Saturday -->
+                    <li role="presentation">
+                        <a href="#day4" aria-controls="day4" role="tab" data-toggle="tab">
+                            <span class="day-title">Sat 13/12</span>
+                            <span class="day-desc">Conference</span>
+                        </a>
+                    </li>
+                    <!-- Day 5: Sunday -->
+                    <li role="presentation">
+                        <a href="#day5" aria-controls="day5" role="tab" data-toggle="tab">
+                            <span class="day-title">Sun 14/12</span>
+                            <span class="day-desc">Conference</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
 
-                <!-- Tab Panes (The Content) -->
-                <div class="tab-content schedule-content">
+            <!-- Tab Panes (The Content) -->
+            <div class="tab-content schedule-content">
+                
+                <!-- Day 1: Wednesday Content -->
+                <div role="tabpanel" class="tab-pane fade in active" id="day1">
+                    <h4>Wednesday: Registration & Foundations</h4>
                     
-                    <!-- Day 1 Content -->
-                    <div role="tabpanel" class="tab-pane fade in active" id="day1">
-                        <h4>Day 1: Tutorials & Practicals</h4>
-                        <p>Detailed schedule for Day 1 goes here...</p>
-                        <!-- Example Item -->
-                        <div class="schedule-item">
-                            <div class="time">09:00 - 10:30</div>
-                            <div class="details">
-                                <h3>Opening Ceremony</h3>
-                                <p>Welcome address and introduction.</p>
-                            </div>
+                    <div class="schedule-item">
+                        <div class="time">15:00 - 16:00</div>
+                        <div class="details">
+                            <h3>Registration & Welcoming</h3>
                         </div>
                     </div>
 
-                    <!-- Day 2 Content -->
-                    <div role="tabpanel" class="tab-pane fade" id="day2">
-                        <h4>Day 2: Tutorials & Practicals</h4>
-                        <p>Detailed schedule for Day 2 goes here...</p>
+                    <div class="schedule-item">
+                        <div class="time">16:00 - 17:30</div>
+                        <div class="details">
+                            <h3>Machine Learning 1 (ML 1)</h3>
+                        </div>
                     </div>
 
-                    <!-- Day 3 Content -->
-                    <div role="tabpanel" class="tab-pane fade" id="day3">
-                        <h4>Day 3: Break the System (Hackathon)</h4>
-                        <p>Detailed schedule for Day 3 goes here...</p>
+                    <div class="schedule-item">
+                        <div class="time">17:30 - 18:00</div>
+                        <div class="details">
+                            <h3>Break</h3>
+                        </div>
                     </div>
 
-                    <!-- Day 4 Content -->
-                    <div role="tabpanel" class="tab-pane fade" id="day4">
-                        <h4>Day 4: Workshops</h4>
-                        <p>Detailed schedule for Day 4 goes here...</p>
+                    <div class="schedule-item">
+                        <div class="time">18:00 - 19:30</div>
+                        <div class="details">
+                            <h3>Machine Learning 2 (ML 2)</h3>
+                        </div>
                     </div>
 
-                    <!-- Day 5 Content -->
-                    <div role="tabpanel" class="tab-pane fade" id="day5">
-                        <h4>Day 5: Conference</h4>
-                        <p>Detailed schedule for Day 5 goes here...</p>
+                    <div class="schedule-item">
+                        <div class="time">19:30 - 20:00</div>
+                        <div class="details">
+                            <h3>Break</h3>
+                        </div>
                     </div>
 
+                    <div class="schedule-item">
+                        <div class="time">20:00 - 21:30</div>
+                        <div class="details">
+                            <h3>Introduction to Deep Learning</h3>
+                        </div>
+                    </div>
                 </div>
+
+                <!-- Day 2: Thursday Content -->
+                <div role="tabpanel" class="tab-pane fade" id="day2">
+                    <h4>Thursday: Advanced Workshops</h4>
+                    
+                    <div class="schedule-item">
+                        <div class="time">16:00 - 18:00</div>
+                        <div class="details">
+                            <h3>Computer Vision (CV)</h3>
+                        </div>
+                    </div>
+
+                    <div class="schedule-item">
+                        <div class="time">18:00 - 18:30</div>
+                        <div class="details">
+                            <h3>Break</h3>
+                        </div>
+                    </div>
+
+                    <div class="schedule-item">
+                        <div class="time">18:30 - 20:30</div>
+                        <div class="details">
+                            <h3>Reinforcement Learning (RL)</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Day 3: Friday Content -->
+                <div role="tabpanel" class="tab-pane fade" id="day3">
+                    <h4>Friday: GenAI & LLMs</h4>
+
+                    <div class="schedule-item">
+                        <div class="time">14:30 - 16:30</div>
+                        <div class="details">
+                            <h3>Generative AI (Gen AI)</h3>
+                        </div>
+                    </div>
+
+                    <div class="schedule-item">
+                        <div class="time">16:30 - 17:00</div>
+                        <div class="details">
+                            <h3>Break</h3>
+                        </div>
+                    </div>
+
+                    <div class="schedule-item">
+                        <div class="time">17:00 - 19:00</div>
+                        <div class="details">
+                            <h3>Large Language Models (LLMs)</h3>
+                        </div>
+                    </div>
+
+                    <div class="schedule-item">
+                        <div class="time">19:00 - 20:00</div>
+                        <div class="details">
+                            <h3>Break</h3>
+                        </div>
+                    </div>
+
+                    <div class="schedule-item">
+                        <div class="time">20:00 - 22:00</div>
+                        <div class="details">
+                            <h3>AI Agents</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Day 4: Saturday Content -->
+                <div role="tabpanel" class="tab-pane fade" id="day4">
+                    <h4>Saturday: Conference & Panels</h4>
+                    
+                    <div class="schedule-item">
+                        <div class="time">09:00 - 10:00</div>
+                        <div class="details">
+                            <h3>Keynote Speech</h3>
+                        </div>
+                    </div>
+
+                    <div class="schedule-item">
+                        <div class="time">10:00 - 11:00</div>
+                        <div class="details">
+                            <h3>Introduction to Arabic NLP</h3>
+                        </div>
+                    </div>
+
+                    <div class="schedule-item">
+                        <div class="time">11:00 - 12:00</div>
+                        <div class="details">
+                            <h3>Parallel Tracks</h3>
+                            <p>Data Science Best Practices <strong>|</strong> Agentic Systems</p>
+                        </div>
+                    </div>
+
+                    <div class="schedule-item">
+                        <div class="time">12:00 - 13:00</div>
+                        <div class="details">
+                            <h3>Break</h3>
+                        </div>
+                    </div>
+
+                    <div class="schedule-item">
+                        <div class="time">13:00 - 14:00</div>
+                        <div class="details">
+                            <h3>Acing an AI Competition + Hackathon Announcement</h3>
+                        </div>
+                    </div>
+
+                    <div class="schedule-item">
+                        <div class="time">14:00 - 15:00</div>
+                        <div class="details">
+                            <h3>Parallel Tracks</h3>
+                            <p>Responsible/Ethical AI <strong>|</strong> AI for Sustainable Development</p>
+                        </div>
+                    </div>
+
+                    <div class="schedule-item">
+                        <div class="time">15:00 - 16:00</div>
+                        <div class="details">
+                            <h3>Break</h3>
+                        </div>
+                    </div>
+
+                    <div class="schedule-item">
+                        <div class="time">16:00 - 17:00</div>
+                        <div class="details">
+                            <h3>Parallel Tracks</h3>
+                            <p>Robotics & AI <strong>|</strong> AI Shaping Public Beliefs</p>
+                        </div>
+                    </div>
+
+                    <div class="schedule-item">
+                        <div class="time">17:00 - 18:30</div>
+                        <div class="details">
+                            <h3>Panel Discussion: AI as a Career Choice</h3>
+                        </div>
+                    </div>
+
+                    <div class="schedule-item">
+                        <div class="time">18:30 - 19:00</div>
+                        <div class="details">
+                            <h3>Hackathon Orientation</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Day 5: Sunday Content -->
+                <div role="tabpanel" class="tab-pane fade" id="day5">
+                    <h4>Sunday: Conference & Closing</h4>
+                    
+                    <div class="schedule-item">
+                        <div class="time">10:00 - 11:00</div>
+                        <div class="details">
+                            <h3>Data Scarcity Solutions 1</h3>
+                        </div>
+                    </div>
+
+                    <div class="schedule-item">
+                        <div class="time">11:00 - 12:00</div>
+                        <div class="details">
+                            <h3>Parallel Tracks</h3>
+                            <p>Data Scarcity Solutions 2 <strong>|</strong> LLM Reasoning</p>
+                        </div>
+                    </div>
+
+                    <div class="schedule-item">
+                        <div class="time">12:00 - 13:00</div>
+                        <div class="details">
+                            <h3>Break</h3>
+                        </div>
+                    </div>
+
+                    <div class="schedule-item">
+                        <div class="time">13:00 - 14:00</div>
+                        <div class="details">
+                            <h3>Parallel Tracks</h3>
+                            <p>AI in Game Design <strong>|</strong> Multi-Modality</p>
+                        </div>
+                    </div>
+
+                    <div class="schedule-item">
+                        <div class="time">14:00 - 15:00</div>
+                        <div class="details">
+                            <h3>End-to-End Topic Case Study</h3>
+                        </div>
+                    </div>
+
+                    <div class="schedule-item">
+                        <div class="time">15:00 - 16:00</div>
+                        <div class="details">
+                            <h3>Break</h3>
+                        </div>
+                    </div>
+
+                    <div class="schedule-item">
+                        <div class="time">16:00 - 17:00</div>
+                        <div class="details">
+                            <h3>Pioneering AI in Sudan</h3>
+                        </div>
+                    </div>
+
+                    <div class="schedule-item">
+                        <div class="time">17:00 - 18:30</div>
+                        <div class="details">
+                            <h3>Panel: Will AI steal your job or make it easier?</h3>
+                        </div>
+                    </div>
+
+                    <div class="schedule-item">
+                        <div class="time">18:30</div>
+                        <div class="details">
+                            <h3>Closing Ceremony</h3>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
-</section>
+</div>
+    </section>
 
     
     <section id="testimonials" class="section testimonials">
